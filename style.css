@@ -432,8 +432,8 @@ min-height: 150px;
 
  
 
-@media screen and (max-width:1000px){
-  .items{ grid-template-columns: repeat(2,1fr);
+@media screen and (max-width: 768px){
+  .items{ grid-template-columns: repeat(1,1fr);
 }
 }
 
@@ -443,4 +443,15 @@ min-height: 150px;
 }
 
 
+@media (max-width: 768px) {
+    .menu .footer .mans .container header {
+        display: none; /* hide menu on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .med .field{
+        padding: 60px 15px;
+    }
+}
 
